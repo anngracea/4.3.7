@@ -1,0 +1,109 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+
+.main {
+    display: flex; 
+    position: absolute;
+    flex-direction: column;
+    width: 661px;
+    height: 763px;
+    background-color: #C4C4C4;
+    }
+
+.wrapper {
+    width: 497px;
+    margin: 62px auto 0; 
+}
+
+.input {
+    position: relative;
+    height: 61px;
+    width: 497px; 
+    padding-left: 15px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 497px;
+}
+
+.dropdown__list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-content {
+    box-sizing: border-box;
+    width: 498px;
+    height: 44px;
+    padding-left: 15px;
+    background: #E3E3E3;
+    border: 2px solid #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin: 0;
+}
+
+.dropdown-content:hover {
+    background: #65CDF9;
+    border: 2px solid #000000;
+}
+
+.repos {
+    flex-direction: column;
+    cursor: pointer;
+    display: flex;
+}
+
+.dropdown__repos {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.chosen {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 496px;
+    height: 101px;
+    background: #E27BEB;
+    border: 1px solid #000000;
+    margin-right: 33px;
+    padding: 8px 15px;
+
+}
+
+.btn-close {
+    display: flex;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url('/Group\ 1.svg'); 
+    width: 45px;
+    height: 42px;
+    align-self: center;
+}
+
+.repos-info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
